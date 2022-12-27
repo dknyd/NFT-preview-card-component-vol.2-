@@ -1,0 +1,114 @@
+*{
+	font-family: "Outfit";
+}
+
+html, body {
+	height: 100%;
+	width: 100%;
+}
+
+body{
+	background-color: hsl(217, 54%, 11%) !important;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.container{
+	background-color: hsl(216, 50%, 16%) !important;
+	width: 23rem;
+	border-radius: 15px;
+	display: flex;
+	flex-direction: column;
+	padding: 0.5rem 0.5rem 0rem 0.5rem;
+	box-sizing: border-box;
+	height: 40rem;
+}
+
+.cube{
+	margin: 1rem 0rem 1rem 0rem;
+	width: 90%;
+	height: 100%;
+	border-radius: 10px;
+	justify-self: center;
+	align-self: center;
+}
+.description{
+	margin: 0rem 2rem 2rem 2rem;
+}
+
+h2{
+	font-weight: 600;
+	color: white;
+}
+
+.text{
+	color: hsl(215, 51%, 70%);
+	font-weight: 300;
+	font-size: 18px;
+}
+
+.price{
+	display: flex;
+	flex-direction: row;
+}
+.eth_icon{
+	width: 0.8rem;
+	height: 1.2rem;
+	align-self: center;
+	margin-right: 0.2rem;
+}
+
+.eth{
+	color:hsl(178, 100%, 50%);
+	align-self: center;
+	font-size: 18px;
+	font-weight: 600;
+}
+
+.days_left{
+	color: hsl(215, 51%, 70%);
+	justify-self: flex-end;
+	font-size: 18px;
+	font-weight: 300;
+}
+
+.clock{
+	width: 1.2rem;
+	height: 1.2rem;
+	align-self: center;
+	margin-left: 4.5rem;
+	margin-right: 0.5rem;
+	}
+
+.line {
+    width: 100%;
+    height: 2px;
+    background-color: hsl(215, 32%, 27%);
+    margin: auto;
+}
+
+.creator{
+	display: flex;
+	align-items: center;
+	font-size: 18px;
+	margin-top: 0.5rem;
+}
+
+.avatar{
+	width: 2.2rem;
+	height: 2.2rem;
+	border-radius: 1.1rem;
+	padding: 0.05rem;
+	background-color: white;
+	margin-right: 1.5rem;
+}
+
+.creation_of{
+	color: hsl(215, 51%, 70%);
+}
+
+.jules_wyvern{
+	color: white;
+	margin-left: 0.5rem;
+}
